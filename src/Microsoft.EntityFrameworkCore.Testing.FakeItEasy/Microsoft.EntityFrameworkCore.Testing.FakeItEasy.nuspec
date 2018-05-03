@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>Microsoft.EntityFrameworkCore.Testing.FakeItEasy</id>
+        <version>$version$</version>
+        <title>Microsoft.EntityFrameworkCore.Testing.FakeItEasy</title>
+        <authors>pushrbx</authors>
+        <owners>pushrbx</owners>
+        <projectUrl>https://github.com/pushrbx/Microsoft.EntityFrameworkCore.Testing.FakeItEasy</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple EntityFramework testing library for FakeItEasy</description>
+        <copyright>Copyright 2018</copyright>
+        <tags>EntityFrameworkCore FakeItEasy Microsoft.EntityFrameworkCore aspnet netstandard</tags>
+    </metadata>
+</package>
