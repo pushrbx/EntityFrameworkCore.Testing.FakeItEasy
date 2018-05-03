@@ -24,7 +24,7 @@ artifacts:
 - path: ./artifacts/*
   name: Microsoft.EntityFrameworkCore.Testing.FakeItEasy
 after_build:
-- ps: '& { dotnet pack .\src\Microsoft.EntityFrameworkCore.Testing.FakeItEasy\Microsoft.EntityFrameworkCore.Testing.FakeItEasy.csproj -c Release --no-restore --no-build -o ..\..\artifacts /p:PackageVersion=$env:APPVEYOR_BUILD_VERSION /p:Platform="" }'
+- ps: '& { dotnet pack .\src\Microsoft.EntityFrameworkCore.Testing.FakeItEasy\Microsoft.EntityFrameworkCore.Testing.FakeItEasy.csproj -c Release --no-restore --no-build -o ..\..\artifacts /p:PackageVersion=$env:APPVEYOR_BUILD_VERSION /p:Platform="" /p:verbosity=m }'
 - cmd: cd .\artifacts
 - cmd: dir
 - cmd: cd ..
