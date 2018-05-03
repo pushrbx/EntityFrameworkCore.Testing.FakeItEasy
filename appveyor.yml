@@ -23,12 +23,6 @@ build:
 artifacts:
 - path: ./artifacts/*
   name: Microsoft.EntityFrameworkCore.Testing.FakeItEasy
-deploy:
-- provider: NuGet
-  api_key:
-    secure: m/fE5yAQxLGPtiKMS7tYe6DTo0BQoY+ZVPii96SdicJBEugWXGlGWk2dcw3XRFmW
-  skip_symbols: true
-  artifact: /.*\.nupkg/
 after_build:
 - ps: '& { dotnet pack .\src\Microsoft.EntityFrameworkCore.Testing.FakeItEasy\Microsoft.EntityFrameworkCore.Testing.FakeItEasy.csproj -c Release --no-restore --no-build -o ..\..\artifacts --version-suffix=$env:APPVEYOR_BUILD_NUMBER /p:Platform="" }'
 - cmd: cd .\artifacts
