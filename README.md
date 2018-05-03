@@ -1,4 +1,4 @@
-# Microsoft.EntityFrameworkCore.Testing.FakeItEasy
+# Microsoft.EntityFrameworkCore.Testing.FakeItEasy [![Build status](https://ci.appveyor.com/api/projects/status/mo7qexxp6wqpcw98?svg=true)](https://ci.appveyor.com/project/pushrbx/microsoft-entityframeworkcore-testing-fakeiteasy)
 
 Simple EntityFrameworkCore FakeItEasy utility class based on [EntityFramework.Testing.FakeItEasy](https://github.com/mgibas/EntityFramework.Testing.FakeItEasy).
 
